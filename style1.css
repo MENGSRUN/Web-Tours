@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+.header{
+    height: 650px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(M1/about-go-cambodia-tours.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navBar-id{
+    margin: 30px 7%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+.logo{
+    width: 140px;;
+    cursor: pointer;
+}
+
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    color: #f7f2f3;
+}
+.nav-links ul{
+    background-color: rgb(122, 213, 213);
+    color: #000;
+    margin: 10px 30px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(246, 250, 249);
+    padding: 5px 20px;
+    border: 1px solid #aaa;
+    transition: 0.6 ease;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(245, 235, 235);
+}
+.Popular{
+    color: #f7f2f3;
+    margin: 10px 30px;
+    display: inline block;
+    padding: 5px 20px;
+    border: 1px solid #aaa;
+    transition: 0.6 ease;
+    text-decoration: none;
+}
+.Places{
+    color: #f7f2f3;
+    margin: 10px 30px;
+    display: inline block;
+    padding: 5px 20px;
+    border: 1px solid #aaa;
+    transition: 0.6 ease;
+    text-decoration: none;
+}
+.Stay{
+    color: #f7f2f3;
+    margin: 10px 30px;
+    display: inline block;
+    padding: 5px 20px;
+    border: 1px solid #aaa;
+    transition: 0.6 ease;
+    text-decoration: none;
+}
+.register-btn{
+    background: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.container{
+    padding: 0 7%;
+}
+.header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 22%;
+}
+.search-bar{
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+.search-bar form{
+
+display:flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background:transparent;
+}
+.search-bar form button{
+    background: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.search-bar form button img{
+    width: 15px;
+    margin: 7px;
+}
+.location-input{
+    flex :1;
+}
+.search-bar form label{
+    font-weight: 600;
+}
+/*-----------exclusives---------------*/
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vm;
+    font-weight: 600;
+    color: #333;
+}
+.Text{
+    text-align: center;
+    color: #000;
+    width: 100vw;
+    height: 10px;
+    margin: 40px;
+}
+.Text1{
+    padding: 5px 5px;
+}
+.Text1 p{
+    font-size: 1vw;
+    line-height: 2vw;
+}
+.Text1 h3{
+    text-align: center;
+    font-size: 18px;
+}
+.container{
+    padding: 0 7%;
+}
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p{
+    padding-bottom: 15px;
+}
